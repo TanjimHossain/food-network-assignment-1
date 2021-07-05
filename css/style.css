@@ -113,23 +113,14 @@ p{
 .recipie-box h1 {
     color: black;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 35px;
 }
 
-footer{
-    background-color: black;
-    color: wheat;
-    text-align: center;
-    min-height: 200px;
+.recipie-box p{
+    font-size: 16px;
 }
 
-footer h1{
-    text-transform: uppercase;
-    padding-top: 55px;
-} 
-footer p{
-    text-transform: capitalize;
-}
+/* Optional start */
 
 #optional{
     box-shadow: 0 0 10px black;
@@ -142,7 +133,6 @@ footer p{
     padding-top: 35px;
     padding-bottom: 35px;
 }
-
 .sub{
     margin: 0 auto;
 }
@@ -151,4 +141,22 @@ footer p{
     font-weight: 900;
     color:black;
     font-size: 35px;
+}
+
+/* Footer Start */
+
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    min-height: 200px;
+}
+
+footer h1{
+    text-transform: uppercase;
+    padding-top: 55px;
+    font-size: 40px;
+} 
+footer p{
+    text-transform: capitalize;
 }
