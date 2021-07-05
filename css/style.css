@@ -130,3 +130,25 @@ footer h1{
 footer p{
     text-transform: capitalize;
 }
+
+#optional{
+    box-shadow: 0 0 10px black;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top :60px;
+    margin-bottom :60px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.sub{
+    margin: 0 auto;
+}
+
+.sub h1{
+    font-weight: 900;
+    color:black;
+    font-size: 35px;
+}
