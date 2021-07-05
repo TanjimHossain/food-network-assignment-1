@@ -4,17 +4,17 @@ body{
 }
 
 h1{
-    font-family: 'Zen Loop', cursive;
-    font-weight: 300;
+    font-family: 'Uchen', serif;
+    font-weight: 900;
     color: rgb(102, 99, 99);
 }
 
 p{
     font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
-/*Section One*/
+/*Heading*/
 #welcome{
     display: flex;
 }
@@ -23,7 +23,7 @@ p{
     margin-top: 25px;
 }
 .welcome-text{
-    margin-left: 35px;
+    margin-left: 40px;
     margin-top: 100px;
 }
 
@@ -47,6 +47,7 @@ p{
 .btn{
     text-decoration: none;
     color: white;
+    box-shadow: 0 0 20px orange;
     padding: 11px 25px;
     background-image: linear-gradient(to left, red, orange);
     border-radius: 20px;
@@ -54,7 +55,7 @@ p{
     font-size: 20px;  
 }
 
-/*Section Two*/
+/*About Me*/
 #about-me{
     display: flex;
     background-image: url(../img/7.png);
@@ -78,3 +79,40 @@ p{
     font-size: 18px;
     width: 450px;
 }
+
+/* Recipies Start */
+
+.top-part{
+    text-align: center;
+}
+
+.top-part h1{
+    color: black;
+    font-size: 60px; 
+}
+
+.top-part p{
+    font-size: 20px;margin: 0 auto;
+    width: 50%;
+}
+
+.bottom-part{
+    display: flex;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.recipie-box{
+    width: 30%;
+    margin: 2%;
+    box-shadow: 0 0 20px black;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+.recipie-box h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}
+
