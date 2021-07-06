@@ -6,7 +6,6 @@ body{
 h1{
     font-family: 'Uchen', serif;
     font-weight: 900;
-    color: rgb(102, 99, 99);
 }
 
 p{
@@ -87,7 +86,6 @@ p{
 }
 
 .top-part h1{
-    color: black;
     font-size: 60px; 
 }
 
@@ -111,8 +109,6 @@ p{
 }
 
 .recipie-box h1 {
-    color: black;
-    font-weight: 900;
     font-size: 35px;
 }
 
@@ -120,9 +116,9 @@ p{
     font-size: 16px;
 }
 
-/* Optional start */
+/* Sicoan Media start */
 
-#optional{
+#social-media{
     box-shadow: 0 0 10px black;
     display: flex;
     text-align: center;
@@ -143,10 +139,44 @@ p{
     font-size: 35px;
 }
 
+/* Our Stuff Start */
+
+#our-stuff{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-heading{
+    font-size: 45px;
+}
+
+.content{
+    display: flex;
+    padding: 1%;
+}
+
+.stuff{
+    width: 30%;
+    margin: 2%;
+    box-shadow: 0 0 20px gray;
+    padding: 20px;
+}
+
+.stuff img{
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
+
 /* Footer Start */
 
+#our-stuff{
+    text-align: center;
+}
+
 footer{
-    background-color: black;
+    background-color: #0A0D16;
     color: wheat;
     text-align: center;
     min-height: 200px;
